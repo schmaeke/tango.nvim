@@ -1,1 +1,1 @@
-local theme = require("neight-grass.theme")
+local theme = require("neight-fir.theme")
