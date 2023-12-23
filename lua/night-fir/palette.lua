@@ -1,8 +1,12 @@
+-- color palette
+
 local M = {}
 
 M.default = {
 	none = "NONE",
 	-- foreground
+	fg_2 = "#2D8659",
+	fg_1 = "#39AC73",
 	fg0 = "#79D2A6",
 	fg1 = "#9FDFBF",
 	fg2 = "#C6ECD9",
@@ -12,6 +16,8 @@ M.default = {
 	bg1 = "#111C22",
 	bg2 = "#1A2A33",
 	bg3 = "#223844",
+	bg4 = "#3C6277",
+	bg5 = "#558CAA",
 	-- reds
 	r0 = "#A33D29",
 	r1 = "#DD573C",
@@ -44,7 +50,4 @@ M.default = {
 	c3 = "#A3DCD2",
 }
 
-function M.setup(opts)
-	palette = palette()
-
-	local colors = vim.tbl_deep_extend("force", vim.deepcopy(M.default), palette)
+return M
