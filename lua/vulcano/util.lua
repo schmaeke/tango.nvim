@@ -16,7 +16,6 @@ local function apply_group(group, props)
 end
 
 function M.apply_groups(groups)
-	print(" >>> init called")
 	for group, props in pairs(groups) do
 		apply_group(group, props)
 	end

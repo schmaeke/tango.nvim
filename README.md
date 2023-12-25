@@ -1,7 +1,3 @@
-# 🌲 night-fir.nvim
+# 🌋 vulcano.nvim
 
-A simple neovim theme based on colors somewhere inbetween [Solarized](https://ethanschoonover.com/solarized/) and the [neovim docs](http://neovim.io/).
-
-<div style = "text-align: center;">
-    <img src = "images/palette.svg" alt = "palette.svg" width = "450px">
-</div>
+A simple neovim colorscheme based on the colors of the ```magma``` colormap form [matplotlib](https://matplotlib.org/stable/users/explain/colors/colormaps.html). The implementation of the plugin is based of the [LunarVim colorschemes](https://github.com/LunarVim/Colorschemes/tree/master).

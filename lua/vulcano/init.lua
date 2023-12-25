@@ -1,11 +1,15 @@
 -- implemetation following: https://github.com/LunarVim/Colorschemes/blob/master/lua/lunar/init.lua
 
-local util = require("night-fir.util")
-local palette = require("night-fir.palette")
+local util = require("vulcano.util")
+local palette = require("vulcano.palette")
 
 local M = {}
 
 function M.setup()
+
+end
+
+function M.apply_theme()
 	c = palette.default
 
 	-- clear highlight and syntex
@@ -17,14 +21,16 @@ function M.setup()
 	-- set nvim settings
 	vim.o.background = "dark"
 	vim.o.termguicolors = true
-	vim.g.colors_name = "hight-fir"
+	vim.g.colors_name = "vulcano"
 
 	-- load highlights
-	local hightlights = require("night-fir.highlights")
+	local hightlights = require("vulcano.highlights")
+	-- local treesitter = require("night-fir.treesitter")
 
 	-- create groups
 	local master_groups = {
-		highlights
+		highlights,
+		-- treesitter
 	}
 
 	-- apply colors from groups
