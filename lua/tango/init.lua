@@ -1,7 +1,7 @@
 -- implemetation following: https://github.com/LunarVim/Colorschemes/blob/master/lua/lunar/init.lua
 
-local util = require("vulcano.util")
-local palette = require("vulcano.palette")
+local util = require("tango.util")
+local palette = require("tango.palette")
 
 local M = {}
 
@@ -21,10 +21,10 @@ function M.apply_theme()
 	-- set nvim settings
 	vim.o.background = "dark"
 	vim.o.termguicolors = true
-	vim.g.colors_name = "vulcano"
+	vim.g.colors_name = "tango"
 
 	-- load highlights
-	local hightlights = require("vulcano.highlights")
+	local hightlights = require("tango.highlights")
 	-- local treesitter = require("night-fir.treesitter")
 
 	-- create groups

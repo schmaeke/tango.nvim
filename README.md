@@ -1,3 +1,3 @@
-# 🌋 vulcano.nvim
+# ⚙ tango.nvim
 
-A simple neovim colorscheme based on the colors of the ```magma``` colormap form [matplotlib](https://matplotlib.org/stable/users/explain/colors/colormaps.html). The implementation of the plugin is based of the [LunarVim colorschemes](https://github.com/LunarVim/Colorschemes/tree/master).
+A simple nvim colorscheme based on the [Tango](https://en.wikipedia.org/wiki/Tango_Desktop_Project) colors.
