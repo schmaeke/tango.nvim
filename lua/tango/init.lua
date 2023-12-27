@@ -25,11 +25,13 @@ function M.apply_theme()
 
 	-- load highlights
 	local hightlights = require("tango.highlights")
+	local telescope = require("tango.telescope")
 	-- local treesitter = require("night-fir.treesitter")
 
 	-- create groups
 	local master_groups = {
 		highlights,
+		telescope,
 		-- treesitter
 	}
 
