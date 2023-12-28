@@ -1,4 +1,6 @@
-<img src = "icon.svg" alt = "tango text editor icon" align = "center">
+<p align = "center">
+    <img src = "icon.svg" alt = "tango text editor icon">
+</p>
 
 <h1 align = "center"> tango.nvim </h1>
 
