@@ -47,9 +47,9 @@ highlights = {
 
 	WarningMsg     = { fg = c.scarlet_red1, bg = c.bg1 },
 
-	DiffAdd        = { fg = c.chameleon0, bg = c.bg1 },
-	DiffChange     = { fg = c.butter0, bg = c.bg1 },
-	DiffDelete     = { fg = c.scarlet_red, bg = c.bg1 },
+	DiffAdd        = { fg = c.chameleon2, bg = c.bg1 },
+	DiffChange     = { fg = c.butter2, bg = c.bg1 },
+	DiffDelete     = { fg = c.scarlet_red2, bg = c.bg1 },
 
 	QuickFixLine   = { bg = c.bg2 },
 
