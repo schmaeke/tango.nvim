@@ -76,10 +76,10 @@ highlights = {
 	MoreMsg        = { fg = c.fg1 },
 	Question       = { fg = c.fg1 },
 	EndOfBuffer    = { fg = c.bg1 },
-	NonText        = { fg = c.bg1 },
+	NonText        = { fg = c.bg4 },
 
 	-- syntax highlighting
-	Comment    	   = { fg = c.sky_blue1 },
+	Comment    	   = { fg = c.sky_blue2 },
 
 	Constant       = { fg = c.orange1 },
 	String         = { fg = c.orange1 },
