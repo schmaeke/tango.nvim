@@ -79,7 +79,7 @@ highlights = {
 	NonText        = { fg = c.bg4 },
 
 	-- syntax highlighting
-	Comment    	   = { fg = c.sky_blue2 },
+	Comment    	   = { fg = c.aluminium0 },
 
 	Constant       = { fg = c.orange1 },
 	String         = { fg = c.orange1 },

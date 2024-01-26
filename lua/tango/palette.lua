@@ -61,7 +61,6 @@ M.default = {
 	aluminium3 = "#2e3436",
 	aluminium4 = "#555753",
 	aluminium5 = "#888a85",
-
 }
 
 return M
