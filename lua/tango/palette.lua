@@ -1,6 +1,6 @@
 -- color palette
 
-local M = {}
+local M = { }
 
 M.default = {
 	none = "NONE",

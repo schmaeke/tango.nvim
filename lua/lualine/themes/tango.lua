@@ -1,4 +1,4 @@
-local palette = require("tango.palette")
+local palette = require( "tango.palette" )
 local c = palette.default
 
 return {

@@ -1,1 +1,1 @@
-require("tango").apply_theme()
+require( "tango" ).apply_theme( )
