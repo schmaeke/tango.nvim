@@ -35,6 +35,7 @@ highlights = {
 	Whitespace     = { fg = c.bg4 },
 
 	VertSplit      = { fg = c.bg4, bg = c.bg1 },
+	WinSeparator   = { fg = c.bg4, bg = c.bg1 },
 
 	CursorLine     = { bg = c.bg2 },
 	CursorColumn   = { bg = c.bg2 },
