@@ -83,7 +83,7 @@ highlights = {
 	Comment    	   = { fg = c.aluminium0 },
 
 	Constant       = { fg = c.orange1 },
-	String         = { fg = c.orange1 },
+	String         = { fg = c.sky_blue2 },
 	Charachter     = { fg = c.orange1 },
 	Number         = { fg = c.orange1 },
 	Boolean        = { fg = c.orange1 },
